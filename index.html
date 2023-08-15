@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gustavo">
+    <meta name="description" content="componetens de eletronicos e suporte.">
+    <meta name="Keywords" content="desenvolvimento,sites,web">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="./JavaScript/slide.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- menu principal horizonte -->
+
+    <header class="header">
+
+        <nav id="menu-h">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#contato">Contato&nbsp;</a></li>
+                <li><a href="#conteudo">Sobre&nbsp;</a></li>
+                <li><a href="#destaques">Produtos&nbsp;</a></li>
+                <!-- <li><a href="destaques.html">Destaques&nbsp;</a></li>
+                <li><a href="outrospets">Outros Pets&nbsp;</a></li> -->
+
+                <div class="topnav-right">
+                    <li><a href="formulario.html">Cadastrar sua loja&nbsp;</a></li>
+                    <li><a href="login.html">Entrar&nbsp;</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!--Fim do Menu -->
+
+    <div class="banner"><!-- banner principal -->
+        <div class="text_banner">
+            <img src="img1/LOGO.png" alt="">
+
+
+        </div>
+    </div><!-- fim do banner -->
+
+
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+
+        <!--  <div class="mySlides fade">
+
+            <img src="./img1/MACAO-transformed.png" style="width:100%">
+
+        </div> -->
+
+        <div class="mySlides fade">
+
+            <img src="./img1/promo4.png" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="./img1/promo5.png" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="./img1/promo3.png" style="width:100%">
+
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+    <!-- Imagens do produto de inicio -->
+    <!-- abrindo div pricipal:produto -->
+    <div class="row" id="destaques">
+        <div class="column">
+            <div class="card">
+                <img src="img1/suinoCombeterraba.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Suíno com beterraba</h2>
+                    <p class="title">Comida Natural Para Cães Idoso</p>
+                    <a href="detalhe.html" id="detalhes1">
+                        <p><button class="button">Ver detalhes</button></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="img1/carneComBatata" alt="Mike" style="width:100%">
+                <div class="container">
+                    <h2>Carne com batata</h2>
+                    <p class="title">Comida Natural Para Cães adultos</p>
+                    <a href="detalhes2.html" id="detalhes2">
+                        <p><button class="button">Ver detalhes</button></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <!-- trocar imagem -->
+                <img src="img1/carneComAveia.jpg" alt="John" style="width:100%">
+                <div class="container">
+                    <h2>Carne com aveia</h2>
+                    <p class="title">Comida Natural Para Cães Filhotes</p>
+                    <a href="detalhes3.html" id="detalhes3">
+                        <p><button class="button">Ver detalhes</button></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row"> <!-- iniciando class row -->
+        <!-- imagem 1 -->
+        <div class="flip-card">
+            <a href="gato1.html">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://polipet.fbitsstatic.net/img/p/racao-guabi-natural-gatos-adultos-castrados-frango-e-arroz-integral-7-5kg-93345/287344-8.jpg?w=430&h=430&v=no-change&qs=ignore"
+                            alt="Avatar" style="width:195px;height:195px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="https://polipet.fbitsstatic.net/img/p/racao-guabi-natural-gatos-adultos-castrados-frango-e-arroz-integral-7-5kg-93345/287344-6.jpg?w=430&h=430&v=no-change&qs=ignore"
+                            alt="" style="width:195px;height:195px;">
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- imagem 2 -->
+        <div class="flip-card">
+            <a href="gato2.html">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://www.petlove.com.br/images/products/252933/product/Ra%C3%A7%C3%A3o_Seca_Quatree_Supreme_Salm%C3%A3o_e_Arroz_Gatos_Filhotes_2498265_%284%29.jpg?1646935272"
+                            alt="Avatar" style="width:195px;height:195px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="https://www.petlove.com.br/images/products/260821/product/Quatree_Supreme_Gatos_Filhotes_1KG_2498331_%288%29.jpg?1660154936;"
+                            alt="Avatar" style="width:160px;height:195px;">
+                    </div>
+                </div>
+            </a>
+
+        </div>
+        <!-- imagem 3 -->
+        <div class="flip-card">
+            <a href="gato3.html">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img1/gatoidoso-PhotoRoom.png-PhotoRoom.png" alt="Avatar"
+                            style="width:200px;height:215px;">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <img src="img1/idoso2-transformed.png" alt="Avatar" style="width:220px;height:210px;">
+                    </div>
+                </div>
+            </a>
+
+        </div>
+        <!-- imagem 4 -->
+        <div class="flip-card">
+            <a href="gato4.html">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img1/gatocastrado.png" alt="Avatar" style="width:195px;height:190px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img1/castrado2.png" alt="Avatar" style="width:200px;height:190px;">
+                    </div>
+                </div>
+
+            </a>
+
+        </div>
+    </div>
+    </div> <!-- fim da class row -->
+
+    <hr class="hr">
+
+
+    <div class="sobre" id="conteudo">
+        <h1 class="title_sobre">Sobre a PetNutri</h1>
+        <section class="section1">
+            <div class="img-area">
+                <img src="img1/dogcozinha.png" alt="" style="width: 350px; height: 350px;">
+            </div>
+            <div class="text-area">
+                <h2>A PetNutri: Nutrição Natural para Animais Domésticos</h2>
+                <p>
+                    A PetNutri é uma empresa dedicada a proporcionar uma alimentação saudável e natural para animais
+                    <br>
+                    domésticos. Fundada com a paixão e compromisso de melhorar a qualidade de vida dos nossos queridos
+                    <br>
+                    companheiros peludos, a empresa se destaca por oferecer uma ampla variedade de alimentos balanceados
+                    <br>
+                    e deliciosos, desenvolvidos por uma equipe de especialistas em nutrição animal. <br>
+                </p>
+
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="img-area">
+                <img src="img1/catcozinha.png" alt="" style="width: 350px; height: 350px;">
+            </div>
+            <div class="text-area">
+                <h2>A PetNutri: Nutrição Natural para Animais Domésticos</h2>
+                <p>
+                    A PetNutri é uma empresa dedicada a proporcionar uma alimentação saudável e natural para animais
+                    <br>
+                    domésticos. Fundada com a paixão e compromisso de melhorar a qualidade de vida dos nossos queridos
+                    <br>
+                    companheiros peludos, a empresa se destaca por oferecer uma ampla variedade de alimentos balanceados
+                    <br>
+                    e deliciosos, desenvolvidos por uma equipe de especialistas em nutrição animal. <br>
+                </p>
+
+        </section>
+
+
+        <section class="section3">
+            <div class="img-area">
+                <img src="img1/cachorrochef-removebg-preview.png" alt="" style="width: 400px; height: 400px;">
+            </div>
+            <div class="text-area">
+                <h2>Nossos produtos</h2>
+                <p>
+                    A PetNutri orgulha-se de utilizar apenas ingredientes naturais e de alta qualidade em suas receitas.
+                    Nossos alimentos são livres de corantes, conservantes e sabores artificiais, garantindo uma
+                    alimentação equilibrada e segura para os animais. Além disso, contamos com uma equipe de
+                    veterinários e nutricionistas que trabalham em conjunto para desenvolver produtos inovadores e
+                    adaptados às necessidades específicas de cada animal.
+
+                    Oferecemos uma ampla gama de opções, incluindo alimentos completos e balanceados para todas as
+                    etapas da vida, desde filhotes e adultos até animais idosos. Também possuímos linhas especiais para
+                    raças específicas, tamanhos, necessidades dietéticas particulares e até mesmo para aqueles com
+                    sensibilidades alimentares.
+
+                </p>
+
+        </section>
+
+
+
+
+    </div>
+
+
+
+    <!-- fim dos Cards Flip -->
+    <hr>
+    <div" id="contato">
+        <footer class="count_rodape">
+            <div class="rede-sociais">
+                <a class="face-icon" href="#" target="_blank"><img src="img1/icons8-facebook-30.png" alt=""></a>
+                <a class="insta-icon" href="#" target="_blank"><img src="img1/icons8-instagram-30.png" alt=""></a>
+                <a class="whats-icon" href="#" target="_blank"><img src="img1/icons8-whatsapp-30.png" alt=""></a>
+            </div>
+            <div>
+                <p>&#169 Todos os direitos - <a href="">Gustavo Camila Murilo Cauã</p>
+            </div>
+
+        </footer>
+        </div>
+
+
+
+        <!-- fechando segunda div principal -->
+
+
+
+</body>
+
+</html>
